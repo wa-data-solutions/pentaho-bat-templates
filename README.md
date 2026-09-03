@@ -192,7 +192,7 @@ Código:
 @echo off
 
 C:\data-integration\kitchen.bat ^
- /rep:"REP_KETTLE_TJCE" ^
+ /rep:"REP_KETTLE_NAME" ^
  /job:"JOB_NAME" ^
  /dir:/CAMINHO_JOB ^
  /user:"NOME_USUARIO" ^
@@ -212,7 +212,7 @@ Indica o nome do repositório Pentaho configurado.
 Exemplo:
 
 ```text
-/rep:"REP_KETTLE_TJCE"
+/rep:"REP_KETTLE_NAME"
 ```
 
 O nome deve corresponder ao repositório previamente configurado no ambiente Pentaho.
